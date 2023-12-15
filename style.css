@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FDF7E4;
+    color: #4A3431;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+}
+
+#H{
+    background: #E7BCDE;
+    width: 375px;
+}
+
+#foto{
+    z-index: 1;
+    position: static;
+    width: 200px;
+    height: 210px;
+    margin-top: 16px;
+    border-radius: 100%;
+
+}
+
+#primero{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.referencias{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h3{
+    justify-content: center;
+    color: #FFFBE6;
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+i{
+    color: rgba(0, 0, 0, 0.521);
+    margin: 5px;
+    font-size: 14px;
+}
+
+i:hover{
+    color: #D9CE9C;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.segundo{
+    width: 238px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.ability:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.element{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start{
+    position: relative;
+    border: 1px solid rgb(6, 80, 90);
+    border-radius: 20px;
+}
+
+.start div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgb(112, 216, 190);
+}
+
+#Gestion{
+    animation: Gestion-barra 2s forwards;
+}
+
+@keyframes Gestion-barra{
+    100%{
+        width: 100%;
+    }
+}
+
+#comunicacion{
+    animation: comunicacion-barra 2s forwards;
+}
+
+@keyframes comunicacion-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+#trabajo{
+    animation: trabajo-barra 2s forwards;
+}
+
+@keyframes trabajo-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#creatividad{
+    animation: creatividad-barra 2s forwards;
+}
+
+@keyframes creatividad-barra{
+    100%{
+        width: 86%;
+    }
+}
+
+#ramas{
+    animation: ramas-barra 2s forwards;
+}
+
+@keyframes ramas-barra{
+    100%{
+        width: 60%;
+    }
+}
+
+#Manejo{
+    animation: Manejo-barra 2s forwards;
+}
+
+@keyframes Manejo-barra{
+    100%{
+        width: 73%;
+    }
+}
+
+#programas{
+    animation: programas-barra 2s forwards;
+}
+
+@keyframes programas-barra{
+    100%{
+        width: 50%;
+    }
+}
+
+
+
+#name{
+    width: 625px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h2{
+    color: #E7BCDE;
+    font-size: 39px;
+    margin-left: 110px;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 45px;
+    margin-bottom: 34px;
+}
+
+
+
+p{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+h4{
+    border-radius: 11px;
+    background-color:#E7BCDE ;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+
+.estu{
+    display: flex;
+    margin-top: 25px;
+}
+
+#talent{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#af{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#tec{
+    margin-left: 87px;
+    margin-top: 10px;
+}
+
+#col{
+    margin-left: 87px;
+    margin-top: 10px;
+}
+
+
+
+.experiencia{
+  display: flex;
+  margin-top: 25px;
+}
+
+h6{
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+@media (max-width:768px){
+  .section{
+    flex-direction: column;
+    align-items: center;
+}
+
+    #H{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width:500px) {
+    #H{
+        margin-left: 144px;
+        background: linear-gradient(348deg, transparent, #1ad3c421);
+    } 
+
+    .segundo{
+        margin-left: 0px;
+    }
+
+    #name{
+        width: 430px;
+        margin-left: 140px;
+        margin-top: 35px;
+    }
+
+    #af{
+        margin-left: 111px;
+    }
+
+    #tec{
+        margin-left: 136px;
+    }
+
+    #exp-v{
+        margin-left: 11px;
+    }
+}
